@@ -1,0 +1,411 @@
+
+findTheBugExample:     file format coff-sh
+
+Contents of .stab section:
+
+Symnum n_type n_othr n_desc n_value  n_strx String
+
+-1     HdrSym 0      84     00000b87 1     
+0      SO     0      2      080040a0 8      ../../port/misc.c
+1      OPT    0      0      00000000 26     gcc2_compiled.
+2      LSYM   0      0      00000000 41     int:t(0,1)=r(0,1);-2147483648;2147483647;
+3      LSYM   0      0      00000000 83     char:t(0,2)=r(0,2);0;127;
+4      LSYM   0      0      00000000 109    long int:t(0,3)=r(0,3);-2147483648;2147483647;
+5      LSYM   0      0      00000000 156    unsigned int:t(0,4)=r(0,4);0;4294967295;
+6      LSYM   0      0      00000000 197    long unsigned int:t(0,5)=r(0,5);0;4294967295;
+7      LSYM   0      0      00000000 243    __int128:t(0,6)=r(0,6);0;-1;
+8      LSYM   0      0      00000000 272    __int128 unsigned:t(0,7)=r(0,7);0;-1;
+9      LSYM   0      0      00000000 310    long long int:t(0,8)=r(0,8);-9223372036854775808;9223372036854775807;
+10     LSYM   0      0      00000000 380    long long unsigned int:t(0,9)=r(0,9);0;-1;
+11     LSYM   0      0      00000000 423    short int:t(0,10)=r(0,10);-32768;32767;
+12     LSYM   0      0      00000000 463    short unsigned int:t(0,11)=r(0,11);0;65535;
+13     LSYM   0      0      00000000 507    signed char:t(0,12)=r(0,12);-128;127;
+14     LSYM   0      0      00000000 545    unsigned char:t(0,13)=r(0,13);0;255;
+15     LSYM   0      0      00000000 582    float:t(0,14)=r(0,1);4;0;
+16     LSYM   0      0      00000000 608    double:t(0,15)=r(0,1);8;0;
+17     LSYM   0      0      00000000 635    long double:t(0,16)=r(0,1);8;0;
+18     LSYM   0      0      00000000 667    _Float32:t(0,17)=r(0,1);4;0;
+19     LSYM   0      0      00000000 696    _Float64:t(0,18)=r(0,1);8;0;
+20     LSYM   0      0      00000000 725    _Float32x:t(0,19)=r(0,1);8;0;
+21     LSYM   0      0      00000000 755    void:t(0,20)=(0,20)
+22     BINCL  0      0      00000000 775    /opt/f-of-e-tools/tools/sunflower/sim/tag.h
+23     LSYM   0      0      00000000 819     :T(1,1)=eTAG_NTAGS:1024,TAG_TTL_MAX:255,TAG_STRING_LEN:16,;
+24     LSYM   0      0      00000000 880    Tag:t(1,2)=(1,3)=s40string:(1,4)=ar(1,5)=r(1,5);0;4294967295;;0;15;(0,13),0,128;who_has:(1,4),128,128;confidence:(0,1),256,32;ttl:(0,5),288,32;;
+25     EINCL  0      0      00000000 0      
+26     BINCL  0      0      00000000 1025   /opt/f-of-e-tools/tools/sunflower/sim/devsim7708.h
+27     LSYM   0      0      00000000 1076    :T(2,1)=eSUPERH_DEVSIM_TOP:4026466304,SUPERH_NIC_OUI_BYTES:16,SUPERH_NIC_DST_BYTES:16,SUPERH_NIC_REG_SPACING:65536,SUPERH_NIC_NMR:4026466304,SUPERH_NIC_BRR:4026400768,SUPERH_NIC_NCR:4026335232,SUPERH_NIC_TDR:4026269696,SUPERH_NIC_NSR:4026204160,SUPERH_NIC_RDR:4026138624,SUPERH_NIC_MAXFSZ:4026073088,SUPERH_NIC_RXFSZ:4026007552,SUPERH_NIC_OUI:4025942016,SUPERH_NIC_DST:4025876480,SUPERH_NIC_NCSENSE:4025810944,SUPERH_NIC_NCOLLS:4025745408,SUPERH_NIC_CSENSE:4025679872,SUPERH_DEVLOGPRINT:4025679871,SUPERH_USECS_END:4025679871,SUPERH_USECS_BEGIN:4025679867,SUPERH_SIMCMD_CTL:4025679866,SUPERH_SIMCMD_DATA:4025679865,SUPERH_RAND_END:4025679865,SUPERH_RAND_BEGIN:4025679861,SUPERH_ORBIT_END:4025679861,SUPERH_ORBIT_BEGIN:4025679857,SUPERH_VELOCITY_END:4025679857,SUPERH_VELOCITY_BEGIN:4025679849,SUPERH_XLOC_END:4025679849,SUPERH_XLOC_BEGIN:4025679841,SUPERH_YLOC_END:4025679841,SUPERH_YLOC_BEGIN:4025679833,SUPERH_ZLOC_END:4025679833,SUPERH_ZLOC_BEGIN:4025679825,SUPERH_SENSOR_REG_SPACING:65536,SUPERH_SENSREAD_END:4025679825,SUPERH_SENSREAD_BEGIN:4025614289,SUPERH_SENSWRITE_END:4025614289,SUPERH_SENSWRITE_BEGIN:4025548753,SUPERH_THREADID:4025548749,SUPERH_NUMAREGION_REG_SPACING:65536,SUPERH_NUMAREGION_RDCNT_END:4025548749,SUPERH_NUMAREGION_RDCNT_BEGIN:4025483213,SUPERH_NUMAREGION_WRCNT_END:4025483213,SUPERH_NUMAREGION_WRCNT_BEGIN:4025417677,SUPERH_NUMAREGION_COUNT:4025417673,SUPERH_BATTPERCENT:4025417669,SUPERH_LOGMARK_END:4025417669,SUPERH_LOGMARK_BEGIN:4025417637,SUPERH_NETTRACEMARK_END:4025417637,SUPERH_NETTRACEMARK_BEGIN:4025417605,SUPERH_DEVSIM_BOTTOM:4025417669,;
+28     EINCL  0      0      00000000 0      
+29     BINCL  0      0      00000000 2656   /opt/f-of-e-tools/tools/sunflower/sys/kern/superH/devscc.h
+30     LSYM   0      0      00000000 2715    :T(3,1)=eTX_RDY:128,TX_CLR:65407,RX_RDY:64,RX_CLR:65471,;
+31     EINCL  0      0      00000000 0      
+32     FUN    0      0      080040a0 2774   sccputc:F(0,20)
+33     PSYM   0      0      00000004 2790   device:p(0,1)
+34     PSYM   0      0      00000000 2804   ch:p(0,13)
+35     SLINE  0      14     00000000 0      
+36     SLINE  0      15     00000016 0      
+37     SLINE  0      15     00000018 0      
+38     SLINE  0      15     0000001e 0      
+39     SLINE  0      15     00000020 0      
+40     SLINE  0      17     00000024 0      
+41     SLINE  0      17     00000026 0      
+42     SLINE  0      18     00000030 0      
+43     SLINE  0      20     00000040 0      
+44     SLINE  0      21     00000042 0      
+45     FUN    0      0      080040f0 2815   devlogprintputc:F(0,20)
+46     PSYM   0      0      00000004 2839   device:p(0,1)
+47     PSYM   0      0      00000000 2853   ch:p(0,13)
+48     SLINE  0      26     00000000 0      
+49     SLINE  0      27     00000016 0      
+50     SLINE  0      27     00000018 0      
+51     SLINE  0      29     00000022 0      
+52     SLINE  0      30     00000024 0      
+53     FUN    0      0      08004124 2864   xudelay:F(0,20)
+54     PSYM   0      0      00000000 2880   usecs:p(0,5)
+55     SLINE  0      34     00000000 0      
+56     SLINE  0      37     0000000c 0      
+57     SLINE  0      37     00000018 0      
+58     SLINE  0      38     0000001e 0      
+59     SLINE  0      38     00000026 0      
+60     SLINE  0      38     0000002a 0      
+61     SLINE  0      38     0000003a 0      
+62     SLINE  0      38     00000046 0      
+63     SLINE  0      41     0000004a 0      
+64     LSYM   0      0      00000008 2893   max:(0,1)
+65     LSYM   0      0      00000004 2903   i:(0,1)
+66     LBRAC  0      0      00000000 0      
+67     RBRAC  0      0      00000056 0      
+68     FUN    0      0      0800417a 2911   pow10:F(0,1)
+69     PSYM   0      0      00000000 2924   y:p(0,1)
+70     SLINE  0      45     00000000 0      
+71     SLINE  0      46     0000000c 0      
+72     SLINE  0      48     00000014 0      
+73     SLINE  0      48     0000001c 0      
+74     SLINE  0      50     00000020 0      
+75     SLINE  0      48     00000034 0      
+76     SLINE  0      48     00000042 0      
+77     SLINE  0      53     00000052 0      
+78     SLINE  0      54     00000058 0      
+79     LSYM   0      0      00000008 2933   i:(0,1)
+80     LSYM   0      0      00000004 2941   ret:(0,1)
+81     LBRAC  0      0      00000000 0      
+82     RBRAC  0      0      00000064 0      
+83     SO     0      0      080041de 0      
+84     HdrSym 0      50     0000098d 1     
+85     SO     0      2      080041e0 10     ../../port/devrtc.c
+86     OPT    0      0      00000000 30     gcc2_compiled.
+87     LSYM   0      0      00000000 45     int:t(0,1)=r(0,1);-2147483648;2147483647;
+88     LSYM   0      0      00000000 87     char:t(0,2)=r(0,2);0;127;
+89     LSYM   0      0      00000000 113    long int:t(0,3)=r(0,3);-2147483648;2147483647;
+90     LSYM   0      0      00000000 160    unsigned int:t(0,4)=r(0,4);0;4294967295;
+91     LSYM   0      0      00000000 201    long unsigned int:t(0,5)=r(0,5);0;4294967295;
+92     LSYM   0      0      00000000 247    __int128:t(0,6)=r(0,6);0;-1;
+93     LSYM   0      0      00000000 276    __int128 unsigned:t(0,7)=r(0,7);0;-1;
+94     LSYM   0      0      00000000 314    long long int:t(0,8)=r(0,8);-9223372036854775808;9223372036854775807;
+95     LSYM   0      0      00000000 384    long long unsigned int:t(0,9)=r(0,9);0;-1;
+96     LSYM   0      0      00000000 427    short int:t(0,10)=r(0,10);-32768;32767;
+97     LSYM   0      0      00000000 467    short unsigned int:t(0,11)=r(0,11);0;65535;
+98     LSYM   0      0      00000000 511    signed char:t(0,12)=r(0,12);-128;127;
+99     LSYM   0      0      00000000 549    unsigned char:t(0,13)=r(0,13);0;255;
+100    LSYM   0      0      00000000 586    float:t(0,14)=r(0,1);4;0;
+101    LSYM   0      0      00000000 612    double:t(0,15)=r(0,1);8;0;
+102    LSYM   0      0      00000000 639    long double:t(0,16)=r(0,1);8;0;
+103    LSYM   0      0      00000000 671    _Float32:t(0,17)=r(0,1);4;0;
+104    LSYM   0      0      00000000 700    _Float64:t(0,18)=r(0,1);8;0;
+105    LSYM   0      0      00000000 729    _Float32x:t(0,19)=r(0,1);8;0;
+106    LSYM   0      0      00000000 759    void:t(0,20)=(0,20)
+107    BINCL  0      0      00000000 779    /opt/f-of-e-tools/tools/sunflower/sim/devsim7708.h
+108    LSYM   0      0      00000000 830     :T(1,1)=eSUPERH_DEVSIM_TOP:4026466304,SUPERH_NIC_OUI_BYTES:16,SUPERH_NIC_DST_BYTES:16,SUPERH_NIC_REG_SPACING:65536,SUPERH_NIC_NMR:4026466304,SUPERH_NIC_BRR:4026400768,SUPERH_NIC_NCR:4026335232,SUPERH_NIC_TDR:4026269696,SUPERH_NIC_NSR:4026204160,SUPERH_NIC_RDR:4026138624,SUPERH_NIC_MAXFSZ:4026073088,SUPERH_NIC_RXFSZ:4026007552,SUPERH_NIC_OUI:4025942016,SUPERH_NIC_DST:4025876480,SUPERH_NIC_NCSENSE:4025810944,SUPERH_NIC_NCOLLS:4025745408,SUPERH_NIC_CSENSE:4025679872,SUPERH_DEVLOGPRINT:4025679871,SUPERH_USECS_END:4025679871,SUPERH_USECS_BEGIN:4025679867,SUPERH_SIMCMD_CTL:4025679866,SUPERH_SIMCMD_DATA:4025679865,SUPERH_RAND_END:4025679865,SUPERH_RAND_BEGIN:4025679861,SUPERH_ORBIT_END:4025679861,SUPERH_ORBIT_BEGIN:4025679857,SUPERH_VELOCITY_END:4025679857,SUPERH_VELOCITY_BEGIN:4025679849,SUPERH_XLOC_END:4025679849,SUPERH_XLOC_BEGIN:4025679841,SUPERH_YLOC_END:4025679841,SUPERH_YLOC_BEGIN:4025679833,SUPERH_ZLOC_END:4025679833,SUPERH_ZLOC_BEGIN:4025679825,SUPERH_SENSOR_REG_SPACING:65536,SUPERH_SENSREAD_END:4025679825,SUPERH_SENSREAD_BEGIN:4025614289,SUPERH_SENSWRITE_END:4025614289,SUPERH_SENSWRITE_BEGIN:4025548753,SUPERH_THREADID:4025548749,SUPERH_NUMAREGION_REG_SPACING:65536,SUPERH_NUMAREGION_RDCNT_END:4025548749,SUPERH_NUMAREGION_RDCNT_BEGIN:4025483213,SUPERH_NUMAREGION_WRCNT_END:4025483213,SUPERH_NUMAREGION_WRCNT_BEGIN:4025417677,SUPERH_NUMAREGION_COUNT:4025417673,SUPERH_BATTPERCENT:4025417669,SUPERH_LOGMARK_END:4025417669,SUPERH_LOGMARK_BEGIN:4025417637,SUPERH_NETTRACEMARK_END:4025417637,SUPERH_NETTRACEMARK_BEGIN:4025417605,SUPERH_DEVSIM_BOTTOM:4025417669,;
+109    EINCL  0      0      00000000 0      
+110    FUN    0      0      080041e0 2410   devrtc_getusecs:F(0,5)
+111    SLINE  0      7      00000000 0      
+112    SLINE  0      8      00000006 0      
+113    SLINE  0      10     0000000e 0      
+114    SLINE  0      10     00000010 0      
+115    SLINE  0      10     00000014 0      
+116    SLINE  0      10     00000018 0      
+117    SLINE  0      11     0000001a 0      
+118    SLINE  0      11     0000001c 0      
+119    SLINE  0      11     00000020 0      
+120    SLINE  0      11     00000024 0      
+121    SLINE  0      12     00000026 0      
+122    SLINE  0      12     00000028 0      
+123    SLINE  0      12     0000002c 0      
+124    SLINE  0      12     00000030 0      
+125    SLINE  0      13     00000032 0      
+126    SLINE  0      13     00000034 0      
+127    SLINE  0      13     00000036 0      
+128    SLINE  0      13     0000003a 0      
+129    SLINE  0      15     0000003c 0      
+130    SLINE  0      16     00000042 0      
+131    LSYM   0      0      00000000 2433   usecs:(0,5)
+132    LBRAC  0      0      00000000 0      
+133    RBRAC  0      0      00000060 0      
+134    SO     0      0      08004240 0      
+135    HdrSym 0      239    000025f3 1     
+136    SO     0      2      08004240 21     findTheBugExample.c
+137    OPT    0      0      00000000 41     gcc2_compiled.
+138    LSYM   0      0      00000000 56     int:t(0,1)=r(0,1);-2147483648;2147483647;
+139    LSYM   0      0      00000000 98     char:t(0,2)=r(0,2);0;127;
+140    LSYM   0      0      00000000 124    long int:t(0,3)=r(0,3);-2147483648;2147483647;
+141    LSYM   0      0      00000000 171    unsigned int:t(0,4)=r(0,4);0;4294967295;
+142    LSYM   0      0      00000000 212    long unsigned int:t(0,5)=r(0,5);0;4294967295;
+143    LSYM   0      0      00000000 258    __int128:t(0,6)=r(0,6);0;-1;
+144    LSYM   0      0      00000000 287    __int128 unsigned:t(0,7)=r(0,7);0;-1;
+145    LSYM   0      0      00000000 325    long long int:t(0,8)=r(0,8);-9223372036854775808;9223372036854775807;
+146    LSYM   0      0      00000000 395    long long unsigned int:t(0,9)=r(0,9);0;-1;
+147    LSYM   0      0      00000000 438    short int:t(0,10)=r(0,10);-32768;32767;
+148    LSYM   0      0      00000000 478    short unsigned int:t(0,11)=r(0,11);0;65535;
+149    LSYM   0      0      00000000 522    signed char:t(0,12)=r(0,12);-128;127;
+150    LSYM   0      0      00000000 560    unsigned char:t(0,13)=r(0,13);0;255;
+151    LSYM   0      0      00000000 597    float:t(0,14)=r(0,1);4;0;
+152    LSYM   0      0      00000000 623    double:t(0,15)=r(0,1);8;0;
+153    LSYM   0      0      00000000 650    long double:t(0,16)=r(0,1);8;0;
+154    LSYM   0      0      00000000 682    _Float32:t(0,17)=r(0,1);4;0;
+155    LSYM   0      0      00000000 711    _Float64:t(0,18)=r(0,1);8;0;
+156    LSYM   0      0      00000000 740    _Float32x:t(0,19)=r(0,1);8;0;
+157    LSYM   0      0      00000000 770    void:t(0,20)=(0,20)
+158    BINCL  0      0      00000000 790    /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/stdio.h
+159    BINCL  0      0      00000000 884    /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/cdefs.h
+160    BINCL  0      0      00000000 982    /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/machine/_default_types.h
+161    LSYM   0      0      00000000 1093   __int8_t:t(3,1)=(0,12)
+162    LSYM   0      0      00000000 1116   __uint8_t:t(3,2)=(0,13)
+163    LSYM   0      0      00000000 1140   __int16_t:t(3,3)=(0,10)
+164    LSYM   0      0      00000000 1164   __uint16_t:t(3,4)=(0,11)
+165    LSYM   0      0      00000000 1189   __int32_t:t(3,5)=(0,3)
+166    LSYM   0      0      00000000 1212   __uint32_t:t(3,6)=(0,5)
+167    LSYM   0      0      00000000 1236   __int64_t:t(3,7)=(0,8)
+168    LSYM   0      0      00000000 1259   __uint64_t:t(3,8)=(0,9)
+169    LSYM   0      0      00000000 1283   __int_least8_t:t(3,9)=(0,12)
+170    LSYM   0      0      00000000 1312   __uint_least8_t:t(3,10)=(0,13)
+171    LSYM   0      0      00000000 1343   __int_least16_t:t(3,11)=(0,10)
+172    LSYM   0      0      00000000 1374   __uint_least16_t:t(3,12)=(0,11)
+173    LSYM   0      0      00000000 1406   __int_least32_t:t(3,13)=(0,3)
+174    LSYM   0      0      00000000 1436   __uint_least32_t:t(3,14)=(0,5)
+175    LSYM   0      0      00000000 1467   __int_least64_t:t(3,15)=(0,8)
+176    LSYM   0      0      00000000 1497   __uint_least64_t:t(3,16)=(0,9)
+177    LSYM   0      0      00000000 1528   __intmax_t:t(3,17)=(0,8)
+178    LSYM   0      0      00000000 1553   __uintmax_t:t(3,18)=(0,9)
+179    LSYM   0      0      00000000 1579   __intptr_t:t(3,19)=(0,1)
+180    LSYM   0      0      00000000 1604   __uintptr_t:t(3,20)=(0,4)
+181    EINCL  0      0      00000000 0      
+182    BINCL  0      0      00000000 1630   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/lib/gcc/sh-elf/8.2.0/include/stddef.h
+183    LSYM   0      0      00000000 1735   size_t:t(4,1)=(0,4)
+184    EINCL  0      0      00000000 0      
+185    EINCL  0      0      00000000 0      
+186    BINCL  0      0      00000000 1755   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/lib/gcc/sh-elf/8.2.0/include/stddef.h
+187    LSYM   0      0      00000000 1860   ptrdiff_t:t(5,1)=(0,1)
+188    LSYM   0      0      00000000 1883   wchar_t:t(5,2)=(0,3)
+189    LSYM   0      0      00000000 1904   max_align_t:t(5,3)=(5,4)=s16__max_align_ll:(0,8),0,64;__max_align_ld:(0,16),64,64;;
+190    EINCL  0      0      00000000 0      
+191    BINCL  0      0      00000000 1988   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/lib/gcc/sh-elf/8.2.0/include/stdarg.h
+192    LSYM   0      0      00000000 2093   __gnuc_va_list:t(6,1)=(6,2)=*(0,20)
+193    EINCL  0      0      00000000 0      
+194    LSYM   0      0      00000000 2129   va_list:t(1,1)=(6,1)
+195    BINCL  0      0      00000000 2150   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/reent.h
+196    BINCL  0      0      00000000 2248   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/_types.h
+197    BINCL  0      0      00000000 2347   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/lock.h
+198    LSYM   0      0      00000000 2444   _LOCK_T:t(9,1)=(0,1)
+199    LSYM   0      0      00000000 2465   _LOCK_RECURSIVE_T:t(9,2)=(0,1)
+200    EINCL  0      0      00000000 0      
+201    LSYM   0      0      00000000 2496   __blkcnt_t:t(8,1)=(0,3)
+202    LSYM   0      0      00000000 2520   __blksize_t:t(8,2)=(0,3)
+203    LSYM   0      0      00000000 2545   __fsblkcnt_t:t(8,3)=(3,8)
+204    LSYM   0      0      00000000 2571   __fsfilcnt_t:t(8,4)=(3,6)
+205    LSYM   0      0      00000000 2597   _off_t:t(8,5)=(0,3)
+206    LSYM   0      0      00000000 2617   __pid_t:t(8,6)=(0,1)
+207    LSYM   0      0      00000000 2638   __dev_t:t(8,7)=(0,10)
+208    LSYM   0      0      00000000 2660   __uid_t:t(8,8)=(0,11)
+209    LSYM   0      0      00000000 2682   __gid_t:t(8,9)=(0,11)
+210    LSYM   0      0      00000000 2704   __id_t:t(8,10)=(3,6)
+211    LSYM   0      0      00000000 2725   __ino_t:t(8,11)=(0,11)
+212    LSYM   0      0      00000000 2748   __mode_t:t(8,12)=(3,6)
+213    LSYM   0      0      00000000 2771   _off64_t:t(8,13)=(0,8)
+214    LSYM   0      0      00000000 2794   __off_t:t(8,14)=(8,5)
+215    LSYM   0      0      00000000 2816   __loff_t:t(8,15)=(8,13)
+216    LSYM   0      0      00000000 2840   __key_t:t(8,16)=(0,3)
+217    LSYM   0      0      00000000 2862   _fpos_t:t(8,17)=(0,3)
+218    LSYM   0      0      00000000 2884   __size_t:t(8,18)=(0,4)
+219    LSYM   0      0      00000000 2907   _ssize_t:t(8,19)=(0,1)
+220    LSYM   0      0      00000000 2930   __ssize_t:t(8,20)=(8,19)
+221    BINCL  0      0      00000000 2955   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/lib/gcc/sh-elf/8.2.0/include/stddef.h
+222    LSYM   0      0      00000000 3060   wint_t:t(10,1)=(0,4)
+223    EINCL  0      0      00000000 0      
+224    LSYM   0      0      00000000 3081   _mbstate_t:t(8,21)=(8,22)=s8__count:(0,1),0,32;__value:(8,23)=u4__wch:(10,1),0,32;__wchb:(8,24)=ar(8,25)=r(8,25);0;4294967295;;0;3;(0,13),0,32;;,32,32;;
+225    LSYM   0      0      00000000 3234   _flock_t:t(8,26)=(9,2)
+226    LSYM   0      0      00000000 3257   _iconv_t:t(8,27)=(6,2)
+227    LSYM   0      0      00000000 3280   __clock_t:t(8,28)=(0,5)
+228    LSYM   0      0      00000000 3304   __time_t:t(8,29)=(3,15)
+229    LSYM   0      0      00000000 3328   __clockid_t:t(8,30)=(0,5)
+230    LSYM   0      0      00000000 3354   __timer_t:t(8,31)=(0,5)
+231    LSYM   0      0      00000000 3378   __sa_family_t:t(8,32)=(3,2)
+232    LSYM   0      0      00000000 3406   __socklen_t:t(8,33)=(3,6)
+233    LSYM   0      0      00000000 3432   __nlink_t:t(8,34)=(0,11)
+234    LSYM   0      0      00000000 3457   __suseconds_t:t(8,35)=(0,3)
+235    LSYM   0      0      00000000 3485   __useconds_t:t(8,36)=(0,5)
+236    LSYM   0      0      00000000 3512   __va_list:t(8,37)=(6,2)
+237    EINCL  0      0      00000000 0      
+238    LSYM   0      0      00000000 3536   __ULong:t(7,1)=(0,5)
+239    LSYM   0      0      00000000 3557   _Bigint:T(7,2)=s24_next:(7,3)=*(7,2),0,32;_k:(0,1),32,32;_maxwds:(0,1),64,32;_sign:(0,1),96,32;_wds:(0,1),128,32;_x:(7,4)=ar(8,25);0;0;(7,1),160,32;;
+240    LSYM   0      0      00000000 3707   __tm:T(7,5)=s36__tm_sec:(0,1),0,32;__tm_min:(0,1),32,32;__tm_hour:(0,1),64,32;__tm_mday:(0,1),96,32;__tm_mon:(0,1),128,32;__tm_year:(0,1),160,32;__tm_wday:(0,1),192,32;__tm_yday:(0,1),224,32;__tm_isdst:(0,1),256,32;;
+241    LSYM   0      0      00000000 3924   _on_exit_args:T(7,6)=s264_fnargs:(7,7)=ar(8,25);0;31;(6,2),0,1024;_dso_handle:(7,7),1024,1024;_fntypes:(7,1),2048,32;_is_cxa:(7,1),2080,32;;
+242    LSYM   0      0      00000000 4065   _atexit:T(7,8)=s400_next:(7,9)=*(7,8),0,32;_ind:(0,1),32,32;_fns:(7,10)=ar(8,25);0;31;(7,11)=*(7,12)=f(0,20),64,1024;_on_exit_args:(7,6),1088,2112;;
+243    LSYM   0      0      00000000 4214   __sbuf:T(7,13)=s8_base:(7,14)=*(0,13),0,32;_size:(0,1),32,32;;
+244    LSYM   0      0      00000000 4277   __sFILE:T(7,15)=s104_p:(7,14),0,32;_r:(0,1),32,32;_w:(0,1),64,32;_flags:(0,10),96,16;_file:(0,10),112,16;_bf:(7,13),128,64;_lbfsize:(0,1),192,32;_cookie:(6,2),224,32;_read:(7,16)=*(7,17)=f(0,1),256,32;_write:(7,18)=*(7,19)=f(0,1),288,32;_seek:(7,20)=*(7,21)=f(8,17),320,32;_close:(7,22)=*(7,23)=f(0,1),352,32;_ub:(7,13),384,64;_up:(7,14),448,32;_ur:(0,1),480,32;_ubuf:(7,24)=ar(8,25);0;2;(0,13),512,24;_nbuf:(7,25)=ar(8,25);0;0;(0,13),536,8;_lb:(7,13),544,64;_blksize:(0,1),608,32;_offset:(8,5),640,32;_data:(7,26)=*(7,27)=xs_reent:,672,32;_lock:(8,26),704,32;_mbstate:(8,21),736,64;_flags2:(0,1),800,32;;
+245    LSYM   0      0      00000000 4883   __FILE:t(7,28)=(7,15)
+246    LSYM   0      0      00000000 4905   _glue:T(7,29)=s12_next:(7,30)=*(7,29),0,32;_niobs:(0,1),32,32;_iobs:(7,31)=*(7,28),64,32;;
+247    LSYM   0      0      00000000 4996   _rand48:T(7,32)=s14_seed:(7,33)=ar(8,25);0;2;(0,11),0,48;_mult:(7,33),48,48;_add:(0,11),96,16;;
+248    LSYM   0      0      00000000 5092   _reent:T(7,27)=s1060_errno:(0,1),0,32;_stdin:(7,31),32,32;_stdout:(7,31),64,32;_stderr:(7,31),96,32;_inc:(0,1),128,32;_emergency:(7,34)=ar(8,25);0;24;(0,2),160,200;_unspecified_locale_info:(0,1),384,32;_locale:(7,35)=*(7,36)=xs__locale_t:,416,32;__sdidinit:(0,1),448,32;__cleanup:(7,37)=*(7,38)=f(0,20),480,32;_result:(7,3),512,32;_result_k:(0,1),544,32;_p5s:(7,3),576,32;_freelist:(7,39)=*(7,3),608,32;_cvtlen:(0,1),640,32;_cvtbuf:(7,40)=*(0,2),672,32;_new:(7,41)=u240_reent:(7,42)=s204_unused_rand:(0,4),0,32;_strtok_last:(7,40),32,32;_asctime_buf:(7,43)=ar(8,25);0;25;(0,2),64,208;_localtime_buf:(7,5),288,288;_gamma_signgam:(0,1),576,32;_rand_next:(0,9),608,64;_r48:(7,32),672,112;_mblen_state:(8,21),800,64;_mbtowc_state:(8,21),864,64;_wctomb_state:(8,21),928,64;_l64a_buf:(7,44)=ar(8,25);0;7;(0,2),992,64;_signal_buf:(7,45)=ar(8,25);0;23;(0,2),1056,192;_getdate_err:(0,1),1248,32;_mbrlen_state:(8,21),1280,64;_mbrtowc_state:(8,21),1344,64;_mbsrtowcs_state:(8,21),1408,64;_wcrtomb_state:(8,21),1472,64;_wcsrtombs_state:(8,21),1536,64;_h_errno:(0,1),1600,32;;,0,1632;_unused:(7,46)=s240_nextf:(7,47)=ar(8,25);0;29;(7,14),0,960;_nmalloc:(7,48)=ar(8,25);0;29;(0,4),960,960;;,0,1920;;,704,1920;_atexit:(7,9),2624,32;_atexit0:(7,8),2656,3200;_sig_func:(7,49)=*(7,50)=*(7,51)=f(0,20),5856,32;__sglue:(7,29),5888,96;__sf:(7,52)=ar(8,25);0;2;(7,28),5984,2496;;
+249    EINCL  0      0      00000000 0      
+250    BINCL  0      0      00000000 6450   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/types.h
+251    LSYM   0      0      00000000 6548   u_int8_t:t(11,1)=(3,2)
+252    LSYM   0      0      00000000 6571   u_int16_t:t(11,2)=(3,4)
+253    LSYM   0      0      00000000 6595   u_int32_t:t(11,3)=(3,6)
+254    LSYM   0      0      00000000 6619   u_int64_t:t(11,4)=(3,8)
+255    LSYM   0      0      00000000 6643   register_t:t(11,5)=(0,1)
+256    BINCL  0      0      00000000 6668   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/_stdint.h
+257    LSYM   0      0      00000000 6768   int8_t:t(12,1)=(3,1)
+258    LSYM   0      0      00000000 6789   uint8_t:t(12,2)=(3,2)
+259    LSYM   0      0      00000000 6811   int16_t:t(12,3)=(3,3)
+260    LSYM   0      0      00000000 6833   uint16_t:t(12,4)=(3,4)
+261    LSYM   0      0      00000000 6856   int32_t:t(12,5)=(3,5)
+262    LSYM   0      0      00000000 6878   uint32_t:t(12,6)=(3,6)
+263    LSYM   0      0      00000000 6901   int64_t:t(12,7)=(3,7)
+264    LSYM   0      0      00000000 6923   uint64_t:t(12,8)=(3,8)
+265    LSYM   0      0      00000000 6946   intmax_t:t(12,9)=(3,17)
+266    LSYM   0      0      00000000 6970   uintmax_t:t(12,10)=(3,18)
+267    LSYM   0      0      00000000 6996   intptr_t:t(12,11)=(3,19)
+268    LSYM   0      0      00000000 7021   uintptr_t:t(12,12)=(3,20)
+269    EINCL  0      0      00000000 0      
+270    BINCL  0      0      00000000 7047   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/select.h
+271    BINCL  0      0      00000000 7146   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/_sigset.h
+272    LSYM   0      0      00000000 7246   __sigset_t:t(14,1)=(0,5)
+273    EINCL  0      0      00000000 0      
+274    BINCL  0      0      00000000 7271   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/_timeval.h
+275    LSYM   0      0      00000000 7372   suseconds_t:t(15,1)=(8,35)
+276    LSYM   0      0      00000000 7399   time_t:t(15,2)=(3,15)
+277    LSYM   0      0      00000000 7421   timeval:T(15,3)=s12tv_sec:(15,2),0,64;tv_usec:(15,1),64,32;;
+278    EINCL  0      0      00000000 0      
+279    BINCL  0      0      00000000 7482   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/timespec.h
+280    BINCL  0      0      00000000 7583   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/_timespec.h
+281    LSYM   0      0      00000000 7685   timespec:T(17,1)=s12tv_sec:(15,2),0,64;tv_nsec:(0,3),64,32;;
+282    EINCL  0      0      00000000 0      
+283    LSYM   0      0      00000000 7746   itimerspec:T(16,1)=s24it_interval:(17,1),0,96;it_value:(17,1),96,96;;
+284    EINCL  0      0      00000000 0      
+285    LSYM   0      0      00000000 7816   sigset_t:t(13,1)=(14,1)
+286    LSYM   0      0      00000000 7840   fd_mask:t(13,2)=(0,5)
+287    LSYM   0      0      00000000 7862   _types_fd_set:T(13,3)=s8fds_bits:(13,4)=ar(8,25);0;1;(13,2),0,64;;
+288    LSYM   0      0      00000000 7929   _types_fd_set:t(13,5)=(13,3)
+289    EINCL  0      0      00000000 0      
+290    LSYM   0      0      00000000 7958   in_addr_t:t(11,6)=(3,6)
+291    LSYM   0      0      00000000 7982   in_port_t:t(11,7)=(3,4)
+292    LSYM   0      0      00000000 8006   u_char:t(11,8)=(0,13)
+293    LSYM   0      0      00000000 8028   u_short:t(11,9)=(0,11)
+294    LSYM   0      0      00000000 8051   u_int:t(11,10)=(0,4)
+295    LSYM   0      0      00000000 8072   u_long:t(11,11)=(0,5)
+296    LSYM   0      0      00000000 8094   ushort:t(11,12)=(0,11)
+297    LSYM   0      0      00000000 8117   uint:t(11,13)=(0,4)
+298    LSYM   0      0      00000000 8137   ulong:t(11,14)=(0,5)
+299    LSYM   0      0      00000000 8158   blkcnt_t:t(11,15)=(8,1)
+300    LSYM   0      0      00000000 8182   blksize_t:t(11,16)=(8,2)
+301    LSYM   0      0      00000000 8207   clock_t:t(11,17)=(0,5)
+302    LSYM   0      0      00000000 8230   daddr_t:t(11,18)=(0,3)
+303    LSYM   0      0      00000000 8253   caddr_t:t(11,19)=(7,40)
+304    LSYM   0      0      00000000 8277   fsblkcnt_t:t(11,20)=(8,3)
+305    LSYM   0      0      00000000 8303   fsfilcnt_t:t(11,21)=(8,4)
+306    LSYM   0      0      00000000 8329   id_t:t(11,22)=(8,10)
+307    LSYM   0      0      00000000 8350   ino_t:t(11,23)=(8,11)
+308    LSYM   0      0      00000000 8372   off_t:t(11,24)=(8,14)
+309    LSYM   0      0      00000000 8394   dev_t:t(11,25)=(8,7)
+310    LSYM   0      0      00000000 8415   uid_t:t(11,26)=(8,8)
+311    LSYM   0      0      00000000 8436   gid_t:t(11,27)=(8,9)
+312    LSYM   0      0      00000000 8457   pid_t:t(11,28)=(8,6)
+313    LSYM   0      0      00000000 8478   key_t:t(11,29)=(8,16)
+314    LSYM   0      0      00000000 8500   ssize_t:t(11,30)=(8,19)
+315    LSYM   0      0      00000000 8524   mode_t:t(11,31)=(8,12)
+316    LSYM   0      0      00000000 8547   nlink_t:t(11,32)=(8,34)
+317    LSYM   0      0      00000000 8571   clockid_t:t(11,33)=(8,30)
+318    LSYM   0      0      00000000 8597   timer_t:t(11,34)=(8,31)
+319    LSYM   0      0      00000000 8621   useconds_t:t(11,35)=(8,36)
+320    LSYM   0      0      00000000 8648   sbintime_t:t(11,36)=(3,7)
+321    BINCL  0      0      00000000 8674   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/_pthreadtypes.h
+322    BINCL  0      0      00000000 8780   /opt/f-of-e-tools/tools/sunflower/sunflower-toolchain/tools/superH/sh-elf/sys-include/sys/sched.h
+323    LSYM   0      0      00000000 8878   sched_param:T(19,1)=s4sched_priority:(0,1),0,32;;
+324    EINCL  0      0      00000000 0      
+325    LSYM   0      0      00000000 8928   pthread_t:t(18,1)=(3,6)
+326    LSYM   0      0      00000000 8952   pthread_attr_t:t(18,2)=(18,3)=s32is_initialized:(0,1),0,32;stackaddr:(6,2),32,32;stacksize:(0,1),64,32;contentionscope:(0,1),96,32;inheritsched:(0,1),128,32;schedpolicy:(0,1),160,32;schedparam:(19,1),192,32;detachstate:(0,1),224,32;;
+327    LSYM   0      0      00000000 9186   pthread_mutex_t:t(18,4)=(3,6)
+328    LSYM   0      0      00000000 9216   pthread_mutexattr_t:t(18,5)=(18,6)=s8is_initialized:(0,1),0,32;recursive:(0,1),32,32;;
+329    LSYM   0      0      00000000 9303   pthread_cond_t:t(18,7)=(3,6)
+330    LSYM   0      0      00000000 9332   pthread_condattr_t:t(18,8)=(18,9)=s8is_initialized:(0,1),0,32;clock:(11,17),32,32;;
+331    LSYM   0      0      00000000 9416   pthread_key_t:t(18,10)=(3,6)
+332    LSYM   0      0      00000000 9445   pthread_once_t:t(18,11)=(18,12)=s8is_initialized:(0,1),0,32;init_executed:(0,1),32,32;;
+333    EINCL  0      0      00000000 0      
+334    EINCL  0      0      00000000 0      
+335    LSYM   0      0      00000000 9533   FILE:t(1,2)=(7,28)
+336    LSYM   0      0      00000000 9552   fpos_t:t(1,3)=(8,17)
+337    EINCL  0      0      00000000 0      
+338    GSYM   0      0      00000000 9573   REGSAVESTACK:G(0,21)=ar(8,25);0;35;(0,13)
+339    GSYM   0      0      00000000 9615   gFlag:G(0,1)
+340    FUN    0      0      08004240 9628   main:F(0,1)
+341    SLINE  0      12     00000000 0      
+342    SLINE  0      13     00000008 0      
+343    SLINE  0      15     00000010 0      
+344    SLINE  0      17     00000016 0      
+345    SLINE  0      19     0000001a 0      
+346    SLINE  0      17     00000036 0      
+347    SLINE  0      17     0000003a 0      
+348    SLINE  0      22     0000003e 0      
+349    SLINE  0      23     00000040 0      
+350    LSYM   0      0      00000000 9640   i:(0,1)
+351    LBRAC  0      0      00000000 0      
+352    RBRAC  0      0      00000060 0      
+353    FUN    0      0      080042a0 9648   intr_hdlr:F(0,20)
+354    SLINE  0      27     00000000 0      
+355    SLINE  0      28     00000004 0      
+356    SLINE  0      30     0000000a 0      
+357    SLINE  0      31     0000000c 0      
+358    FUN    0      0      080042b8 9666   hdlr_install:f(0,20)
+359    SLINE  0      35     00000000 0      
+360    SLINE  0      37     00000006 0      
+361    SLINE  0      38     0000000e 0      
+362    SLINE  0      42     00000016 0      
+363    SLINE  0      44     0000001a 0      
+364    SLINE  0      44     0000002a 0      
+365    SLINE  0      44     0000003a 0      
+366    SLINE  0      44     0000003e 0      
+367    SLINE  0      42     00000040 0      
+368    SLINE  0      47     0000004c 0      
+369    SLINE  0      48     0000004e 0      
+370    LSYM   0      0      00000004 9687   dstptr:(7,14)
+371    LSYM   0      0      00000000 9701   srcptr:(7,14)
+372    LBRAC  0      0      00000000 0      
+373    RBRAC  0      0      00000064 0      
+374    SO     0      0      0800431c 0      
+375    HdrSym 0      26     0000030f 1     
+376    SO     0      2      0800431c 10     atexit.c
+377    OPT    0      0      00000000 19     gcc2_compiled.
+378    LSYM   0      0      00000000 34     int:t(0,1)=r(0,1);-2147483648;2147483647;
+379    LSYM   0      0      00000000 76     char:t(0,2)=r(0,2);0;127;
+380    LSYM   0      0      00000000 102    long int:t(0,3)=r(0,3);-2147483648;2147483647;
+381    LSYM   0      0      00000000 149    unsigned int:t(0,4)=r(0,4);0;4294967295;
+382    LSYM   0      0      00000000 190    long unsigned int:t(0,5)=r(0,5);0;4294967295;
+383    LSYM   0      0      00000000 236    __int128:t(0,6)=r(0,6);0;-1;
+384    LSYM   0      0      00000000 265    __int128 unsigned:t(0,7)=r(0,7);0;-1;
+385    LSYM   0      0      00000000 303    long long int:t(0,8)=r(0,8);-9223372036854775808;9223372036854775807;
+386    LSYM   0      0      00000000 373    long long unsigned int:t(0,9)=r(0,9);0;-1;
+387    LSYM   0      0      00000000 416    short int:t(0,10)=r(0,10);-32768;32767;
+388    LSYM   0      0      00000000 456    short unsigned int:t(0,11)=r(0,11);0;65535;
+389    LSYM   0      0      00000000 500    signed char:t(0,12)=r(0,12);-128;127;
+390    LSYM   0      0      00000000 538    unsigned char:t(0,13)=r(0,13);0;255;
+391    LSYM   0      0      00000000 575    float:t(0,14)=r(0,1);4;0;
+392    LSYM   0      0      00000000 601    double:t(0,15)=r(0,1);8;0;
+393    LSYM   0      0      00000000 628    long double:t(0,16)=r(0,1);8;0;
+394    LSYM   0      0      00000000 660    _Float32:t(0,17)=r(0,1);4;0;
+395    LSYM   0      0      00000000 689    _Float64:t(0,18)=r(0,1);8;0;
+396    LSYM   0      0      00000000 718    _Float32x:t(0,19)=r(0,1);8;0;
+397    LSYM   0      0      00000000 748    void:t(0,20)=(0,20)
+398    FUN    0      0      0800431c 768    atexit:F(0,20)
+399    SLINE  0      3      00000000 0      
+400    SLINE  0      4      00000000 0      
+401    SO     0      0      08004320 0      
+
