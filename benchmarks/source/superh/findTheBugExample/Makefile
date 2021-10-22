@@ -6,7 +6,7 @@ TARGET		= superH
 TARGET-ARCH	= sh-elf
 
 PROGRAM		= findTheBugExample
-LIBOS		= mOS
+LIBOS		= eOS
 
 PORT		= ../../port
 SIMDIR		= $(TREEROOT)/sim

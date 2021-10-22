@@ -2,15 +2,6 @@ conf/setup.conf
 simlog.node*
 sunflower.out
 
-#
-#	Binaries
-#
-*.o
-*.out
-*.sr
-*.map
-*.dump
-init.i
 
 #
 #	Bison files
